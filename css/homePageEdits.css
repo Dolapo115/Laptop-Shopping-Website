@@ -1,0 +1,208 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.headingLogo{
+    width: 30%;
+    color: white;
+    height: inherit;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headingLogo > h1 {
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+.headingLogo > img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.bannerContentContainer{
+    /* border: 2px solid white; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    /* color: white; */
+    position: relative;
+}
+
+.bannerContent{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 300px;
+    /* border: 2px solid white; */
+    /* padding-top: 20%;
+    padding-bottom: 20%; */
+}
+
+.bannerContent > h4{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 18px;
+
+}
+
+.bannerContent > h2{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    font-size: 40px;
+    width: auto;
+    margin-bottom: 60px;
+
+}
+
+.bannerContentDesign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 10px;
+    /* border: 1px solid white; */
+}
+
+.bannerContentDesign > img{
+    height: 120px;
+    border-radius: 50%;
+}
+
+.bannerContentDesign > h1{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-size: 120px;
+    /* margin-top: 10px;
+    margin-bottom: 30px; */
+
+}
+
+#feature-left{
+    text-align: right;
+    border-top: 0.5px solid black;
+}
+/*This is where the design for page2 begins */
+/*This is where it ends*/
+
+
+@media screen and (max-width: 600px){
+
+    *{
+        scroll-behavior: smooth;
+    }
+
+    .headingLogo{
+        width: 60%;
+        color: white;
+        height: inherit;
+        /* border: 2px solid white; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .headingLogo > h1 {
+        letter-spacing: 10px;
+        font-weight: bolder;
+        color: white;
+        margin-top: 5px;
+    }
+    
+    .headingLogo > img{
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .bannerContentContainer{
+        /* border: 2px solid white; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        /* color: white; */
+        position: relative;
+    }
+    
+    .bannerContent{
+        height: inherit;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        height: 300px;
+        /* border: 2px solid white; */
+        /* padding-top: 20%;
+        padding-bottom: 20%; */
+    }
+    
+    .bannerContent > h4{
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: 15px;
+        width: auto;
+        /* border: 2px solid white; */
+        margin-top: -35px;
+    
+    }
+    
+    .bannerContentDesign{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 1px solid white; */
+    }
+    
+    .bannerContentDesign > img{
+        height: 120px;
+        border-radius: 50%;
+        width:15%;
+        height: auto;
+        margin-left: 10px;
+    }
+    
+    .bannerContentDesign > h1{
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 7px;
+        font-size: 80px;
+        width: 70%;
+        margin-top: 10px;
+        /*margin-bottom: 30px; */
+    
+    }
+
+    .bannerContent > h2{
+        color: white;
+        font-weight: bolder;
+        letter-spacing: 10px;
+        font-size: 30px;
+        width: auto;
+    }
+    
+}

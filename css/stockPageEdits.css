@@ -1,0 +1,152 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.banner-area{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url("img/stock-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    /* background-color:blueviolet; */
+    /* border: 2px solid white; */
+}
+
+#checkStock{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#bodySection{
+    width: 100%;
+}
+
+.productSection{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftProductSection{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 3%;
+}
+
+.rightProductSection{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.leftproductSection > h1{
+    width: 100%;
+    height: 20%;
+}
+
+.leftproductSection > p{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px){
+
+    *{
+        scroll-behavior: smooth;
+    }
+
+    .banner-area{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        background: url("img/stock-bg.jpg") no-repeat center center fixed;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        /* background-color:blueviolet; */
+        /* border: 2px solid white; */
+    }
+    
+    #checkStock{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+    
+    #bodySection{
+        width: 100%;
+    }
+    
+    .productSection{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+        /* border: 1px solid rgba(0, 0, 0, 0.5); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .leftProductSection{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5% 3%;
+    }
+    
+    .rightProductSection{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .leftproductSection > h1{
+        width: 100%;
+        height: 20%;
+    }
+    
+    .leftproductSection > p{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .images{
+        width: 100%;
+        height: 100%;
+    }
+}
